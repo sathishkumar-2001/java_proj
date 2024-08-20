@@ -1,13 +1,15 @@
 import java.util.*;
 
 public class even_odd_prob {
-	public static void main(String[] args) {
-		int time = 30;
+	public static void main (String[] args) {
+		Scanner scan = new Scanner(System.in);
 
-		if (time > 40 ) {
-			System.out.println("if time");
+		int num = scan.nextInt();
+
+		if (num % 2 == 0 ) {
+			System.out.println("even");
 		} else {
-			System.out.println("else time");
+			System.out.println("odd");
 		}
 	}
 }
